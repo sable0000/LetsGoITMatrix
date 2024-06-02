@@ -8,7 +8,7 @@ screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("ARIA Owned This Site")
 
 # Load and resize logo
-logo = pygame.image.load('assets/logo.png')
+logo = pygame.image.load('logo.png')
 logo = pygame.transform.scale(logo, (500, 200))
 
 # Font settings
